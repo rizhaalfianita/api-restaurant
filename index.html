@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dummy API Restaurants</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+      }
+      h1 {
+        color: #333;
+      }
+      .endpoint {
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding-bottom: 50px;
+      }
+      code {
+        background-color: #eee;
+        padding: 4px 6px;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to the Dummy API Restaurants</h1>
+    <p>This is a simple API that provides restaurant information.</p>
+
+    <div class="endpoint">
+      <h2>Available Endpoints</h2>
+
+      <h3>GET /restaurants</h3>
+      <p>Returns a list of all available restaurants.</p>
+      <code>https://api-restaurant-ol2j.onrender.com/restaurants</code>
+
+      <h3>GET /restaurants/:id</h3>
+      <p>Fetches details for a specific restaurant by its <code>:id</code>.</p>
+      <code
+        >https://api-restaurant-ol2j.onrender.com/restaurants/rqdv5juczeskfw1e867</code
+      >
+
+      <h3>GET /restaurants/search/:category</h3>
+      <p>
+        Fetches a list of restaurants that belong to a specific
+        <code>:category</code>.
+      </p>
+      <code
+        >https://api-restaurant-ol2j.onrender.com/restaurants/search/Jawa</code
+      >
+    </div>
+  </body>
+</html>
